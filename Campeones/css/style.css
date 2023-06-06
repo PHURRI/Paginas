@@ -4,7 +4,14 @@ body{
 
 .title{
     text-align: center;
-    color: #f9f4f5;
+    color: #502f4c;
+    font-size: 30px;
+}
+#header-title{
+    background-color: #c8b8db;
+    border-radius: 15px;
+    padding: 2px 0;
+    margin-bottom: 10px;
 }
 
 p{
@@ -128,6 +135,9 @@ p{
     height: auto;
    
     flex-wrap: wrap;
+    border-radius: 15px;
+    background-color: #c8b8db;
+    margin-top: 20px;
     
     
 }
@@ -160,6 +170,9 @@ p{
     }
     .content p{
         font-size: 10px;
+    }
+    .title{
+        font-size: 20px;
     }
 }
 
