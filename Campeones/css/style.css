@@ -163,3 +163,33 @@ p{
     height: auto;
     justify-content: center;
 }
+
+.imagenBoton {
+    border-radius: 50%; /* Hace la imagen circular */
+  }
+  
+  .imagenBoton:hover {
+    transform: scale(1.2); /* Aumentar el tamaño al pasar el cursor */
+  }
+
+  .imagenCargada{
+    transition: box-shadow .1s;
+    
+    }
+    
+    .imagenCargada:hover{
+    box-shadow: 0px 0px 50px rgba(0,0,0, 1);
+    }
+
+    @keyframes rotating {
+        0% {
+          transform: rotateY(0deg);
+        }
+        100% {
+          transform: rotateY(360deg);
+        }
+      }
+      
+      .imagenCargada {
+        animation: rotating 5s ;
+      }
