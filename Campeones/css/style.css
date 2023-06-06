@@ -1,0 +1,165 @@
+body{
+    background-color: #70587c;
+}
+
+.title{
+    text-align: center;
+    color: #f9f4f5;
+}
+
+p{
+    color: #f9f4f5;
+}
+
+    .parrafo-insertado{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+#main{
+    text-align: center;
+    
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-direction: row; */
+    padding: 15px;
+    background-color: #c8b8db;
+    width: auto;
+    height: auto;
+    align-items: center;
+    
+}
+
+
+.pokemon{
+    
+    
+    
+    margin: 10px;
+    width: 20rem;
+    height: 31rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+    .container-name{
+        display: flex;
+        justify-content: center;
+        width: auto;
+    }
+    
+    #name{
+        
+        
+        margin: 5px 1px;
+        border-radius: 20px;
+        padding: 10px;
+        background-color: #502f4c;
+        width: 200px;
+        height: 50px;
+                
+    }
+
+    .image{
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+.characteristics{
+
+    
+    border-radius: 50px;
+    background-color: #502f4c;
+    /* max-width: auto;
+    height: auto; */
+    width: 20rem;
+    height: 29rem;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+  }
+  
+  .item {
+    box-sizing: border-box;
+    width: 50%;
+    
+  }
+  
+  .content {
+    font-weight: 600;
+    text-align: center;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    width: auto;
+  }
+  /* .content-valor{
+    
+  } */
+
+
+.imagenBoton{
+    /* width: 80px; */
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+
+.imagenCargada{
+    border-radius: 15px;
+    max-width: 100%;
+    height: 400px; 
+    
+    
+    
+}
+
+#contenedor-footer{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+   
+    flex-wrap: wrap;
+    
+    
+}
+
+@media (max-width: 700px) {
+    #main{
+        
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 450px){
+     #main{
+        width: 80%;
+    } 
+    
+}
+@media (max-width: 500px){
+    .pokemon{
+        height: auto;
+        max-width: 100%;
+    }
+    .characteristics{
+        height: auto;
+        width: auto;
+    }
+    .imagenBoton{
+        width: 40px;
+    }
+}
+
+.contenedor{
+    display: flex;
+    
+    width: auto;
+    height: auto;
+    justify-content: center;
+}
